@@ -1,3 +1,5 @@
+// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
 Shader "LineShader" {
 
   SubShader {
@@ -31,7 +33,7 @@ Shader "LineShader" {
         float4 draw_color = float4(0.695, 0.492, 0.277, 1.0);
         float4 base_color = float4(0.277, 0.492, 0.695, 0.1);
         VertOut output;
-        output.position = mul (UNITY_MATRIX_MVP, input.vertex);
+        output.position = UnityObjectToClipPos (input.vertex);
         float t = fmod(_Phase + input.color[0], 1.0);
         t = clamp(t * t * t * t - 0.4, 0.0, 1.0);
         output.color = t * 5.0 * draw_color + 0.2 * base_color;

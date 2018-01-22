@@ -1,9 +1,9 @@
+﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2008
-
-Project("{12AACCF1-2ED5-40B2-6A8C-02D23D463865}") = "embodied", "Assembly-CSharp.csproj", "{BB0CA631-E399-CFE2-4999-57241784D542}"
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "embodied", "Assembly-CSharp.csproj", "{BB0CA631-E399-CFE2-4999-57241784D542}"
 EndProject
-Project("{12AACCF1-2ED5-40B2-6A8C-02D23D463865}") = "embodied", "Assembly-CSharp-Editor.csproj", "{DBD7DE9D-6B2C-ED01-7D0B-E44FBF77B3F5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "embodied", "Assembly-CSharp-Editor.csproj", "{DBD7DE9D-6B2C-ED01-7D0B-E44FBF77B3F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
